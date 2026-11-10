@@ -1,12 +1,14 @@
 # OpsPulse — End-to-End DevOps Project
 
+## Architecture
+
+![OpsPulse CI/CD and AWS deployment architecture](docs/opspulse-architecture.png)
+
 OpsPulse is a small **FastAPI-based DevOps health dashboard API** used to demonstrate an end-to-end delivery workflow: automated testing, multi-stage Docker image creation, publishing to Amazon ECR, and automated deployment to Amazon ECS.
 
 The project focuses on connecting application development, testing, containerisation and cloud deployment into one repeatable CI/CD process.
 
-## Architecture
 
-![OpsPulse CI/CD and AWS deployment architecture](docs/opspulse-architecture.png)
 
 ### Delivery flow
 
